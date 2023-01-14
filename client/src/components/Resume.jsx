@@ -2,7 +2,7 @@
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <h1>This is my resume!</h1>
   )
 }
 

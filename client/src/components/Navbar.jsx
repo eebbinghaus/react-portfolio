@@ -1,20 +1,29 @@
 import { useState } from "react";
-import { close, logo, menu } from "../assets";
+import { close, logo, menu, name } from "../assets";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-fill flex p-1 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[200px] h-[200px]" />
+    <nav className="w-fill mx-10 mb-12 flex p-1 justify-between items-center navbar">
+       <Link
+            className={`font-poppins font-normal cursor-pointer text-[20px] text-white mr-10`}
+            aria-current="page"
+            to="/"
+          >
+            
+          
+      <img src={logo} alt="hoobank" className="w-[200px] h-[200px] " />
+      </Link>
+      {/* <h1 className="text-white font-rubik text-[40px]">Erich Ebbinghaus</h1> */}
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         <li>
           <Link
             className={`font-poppins font-normal cursor-pointer text-[20px] text-white mr-10`}
             aria-current="page"
-            to="/"
+            to="/about"
           >
             About Me
           </Link>
