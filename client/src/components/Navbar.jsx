@@ -6,9 +6,9 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-fill mx-10 mb-12 flex p-1 justify-between items-center navbar">
+    <nav className="w-fill mx-10 mb-12 flex p-1 justify-between items-center navbar z-[5]">
        <Link
-            className={`font-poppins font-normal cursor-pointer text-[20px] text-white mr-10`}
+            className={`font-skranji  cursor-pointer text-[20px] text-white mr-10`}
             aria-current="page"
             to="/"
           >
@@ -18,10 +18,10 @@ const Navbar = () => {
       </Link>
       {/* <h1 className="text-white font-rubik text-[40px]">Erich Ebbinghaus</h1> */}
 
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+      <ul className="list-none sm:flex hidden justify-end items-center flex-1 z-[5]">
         <li>
           <Link
-            className={`font-poppins font-normal cursor-pointer text-[20px] text-white mr-10`}
+            className={`font-skranji cursor-pointer text-[20px] text-white mr-10`}
             aria-current="page"
             to="/about"
           >
@@ -30,7 +30,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className={`font-poppins font-normal cursor-pointer text-[20px] text-white mr-10`}
+            className={`font-skranji cursor-pointer text-[20px] text-white mr-10`}
             aria-current="page"
             to="/portfolio"
           >
@@ -39,7 +39,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className={`font-poppins font-normal cursor-pointer text-[20px] text-white mr-10`}
+            className={`font-skranji cursor-pointer text-[20px] text-white mr-10`}
             aria-current="page"
             to="/contact"
           >
@@ -48,7 +48,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className={`font-poppins font-normal cursor-pointer text-[20px] text-white `}
+            className={`font-skranji cursor-pointer text-[20px] text-white `}
             aria-current="page"
             to="/resume"
           >
@@ -73,7 +73,7 @@ const Navbar = () => {
           <ul className="list-none flex flex-col justify-end items-center flex-1">
             <li>
               <Link
-                className={`font-poppins font-normal cursor-pointer text-[20px] text-white mr-10`}
+                className={`font-skranji cursor-pointer text-[20px] text-white mr-10`}
                 aria-current="page"
                 to="/"
               >
@@ -82,7 +82,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                className={`font-poppins font-normal cursor-pointer text-[20px] text-white mr-10`}
+                className={`font-skranji cursor-pointer text-[20px] text-white mr-10`}
                 aria-current="page"
                 to="/portfolio"
               >
@@ -91,7 +91,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                className={`font-poppins font-normal cursor-pointer text-[20px] text-white mr-10`}
+                className={`font-skranji cursor-pointer text-[20px] text-white mr-10`}
                 aria-current="page"
                 to="/contact"
               >
@@ -100,7 +100,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                className={`font-poppins font-normal cursor-pointer text-[20px] text-white mr-10`}
+                className={`font-skranji cursor-pointer text-[20px] text-white mr-10`}
                 aria-current="page"
                 to="/resume"
               >

@@ -12,5 +12,6 @@ import quiz from "./quiz.png"
 import teamProfile from "./team-profile.png"
 import name from "./name.png"
 import homeImg from "./homeImg.png"
+import self from "./self.png"
 
-export { logo, close, menu, family, familyAbout, skull, prepUrself, weather, employeeTracker, wishlist, quiz, teamProfile, name, homeImg };
+export { logo, close, menu, family, familyAbout, skull, prepUrself, weather, employeeTracker, wishlist, quiz, teamProfile, name, homeImg, self };

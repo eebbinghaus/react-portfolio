@@ -13,6 +13,7 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         rubik: ["Rubik Vinyl", "cursive"],
+        skranji: ["Skranji", "cursive"],
       },
     },
     screens: {
