@@ -5,27 +5,27 @@ import { faE, faEnvelope, faSackDollar, faSquarePhoneFlip } from '@fortawesome/f
 const Footer = () => {
   return (
     <div className="flex row justify-around fixed inset-x-0 bottom-0 z-[8]">
-      <div className="text-white">
+      <div className="text-cyan-300">
         <a href="https://github.com">
-          <FontAwesomeIcon icon={faGithub} className="w-[50px] h-[50px]"/>
+          <FontAwesomeIcon icon={faGithub} className="w-[40px] h-[40px]"/>
         </a>
       </div>
 
-      <div className="text-white">
+      <div className="text-cyan-300">
         <a href="https://github.com">
-          <FontAwesomeIcon icon={faEnvelope} className="w-[50px] h-[50px]"/>
+          <FontAwesomeIcon icon={faEnvelope} className="w-[40px] h-[40px]"/>
         </a>
       </div>
 
-      <div className="text-white">
+      <div className="text-cyan-300">
         <a href="https://github.com">
-          <FontAwesomeIcon icon={faLinkedinIn} className="w-[50px] h-[50px]"/>
+          <FontAwesomeIcon icon={faLinkedinIn} className="w-[40px] h-[40px]"/>
         </a>
       </div>
 
-      <div className="text-white">
+      <div className="text-cyan-300">
         <a href="https://github.com" >
-          <FontAwesomeIcon icon={faSquarePhoneFlip} className="w-[50px] h-[50px]"/>
+          <FontAwesomeIcon icon={faSquarePhoneFlip} className="w-[40px] h-[40px]"/>
         </a>
       </div>
     </div>

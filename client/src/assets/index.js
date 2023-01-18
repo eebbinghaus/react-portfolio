@@ -14,4 +14,5 @@ import name from "./name.png"
 import homeImg from "./homeImg.png"
 import self from "./self.png"
 
-export { logo, close, menu, family, familyAbout, skull, prepUrself, weather, employeeTracker, wishlist, quiz, teamProfile, name, homeImg, self };
+
+export { logo, close, menu, family, familyAbout, skull, prepUrself, weather, employeeTracker, wishlist, quiz, teamProfile, name, homeImg, self,  };
