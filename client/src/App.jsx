@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="bg-[url('./src/assets/bgOrange.png')] w-full h-screen overflow-hidden bg-no-repeat bg-cover bg-fixed">
+    <div className="bg-[url('./src/assets/bgGrey.png')] w-full h-screen overflow-hidden bg-no-repeat bg-cover bg-fixed">
       <Router>
         <div className="">
           <div>

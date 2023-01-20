@@ -1,12 +1,12 @@
-import { family } from "../assets";
+import { picAbout } from "../assets";
 
 const About = () => {
   return (
     <section>
       <div className="min-h-screen">
-        <div className="flex flex-row justify-around flex-wrap">
+        <div className="flex flex-row justify-center flex-wrap">
           <img
-            src={family}
+            src={picAbout}
             alt="family"
             className=" mt-[100px] ml-7 scale-150 relative z-[5] "
           />
@@ -15,7 +15,7 @@ const About = () => {
           <div className="absolute z-[1] w-[20%] h-[30%] rounded-full bottom-40 white__gradient" />
           <div className="absolute z-[0] w-[30%] h-[50%] left-20  blue__gradient" /> */}
 
-          <p className=" text-[20px] text-[#ff7d00] font-skranji max-w-[700px] max-h-[300px] mt-[250px] z-[4] mr-[100px] rounded-xl shadow-[0_20px_80px_20px_rgba(0,0,0)] bg-black text-center p-4">
+          <p className=" text-[20px] text-[#d8dfee] font-skranji sm:max-w-[700px] sm:max-h-[300px] mt-[250px] z-[4]  rounded-xl shadow-[0_20px_80px_20px_rgba(0,0,0)] bg-[#42666E] text-center p-4 border-[#cbf83e] border-solid border-2">
             Aspiring Junior Developer by day, and avid video game junkie by
             night! Loving husband and dad of three awesome kiddos 24/7! Feeling
             a little stuck in my day to day job I decided it was time to

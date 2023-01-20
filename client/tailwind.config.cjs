@@ -14,6 +14,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         rubik: ["Rubik Vinyl", "cursive"],
         skranji: ["Skranji", "cursive"],
+        racing: ["Racing Sans One", "cursive"]
       },
     },
     screens: {

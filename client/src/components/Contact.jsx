@@ -1,19 +1,32 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faFontAwesome } from "@fortawesome/free-brands-svg-icons";
+import { useForm } from 'react-hook-form';
 
 const Contact = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors }
+  } = useForm();
+  const onSubmit = (values) => console.log(JSON.stringify(values, null, 2));
+
+  
   return (
-    <section className="text-white flex justify-center p-10">
-      <form class="w-full max-w-lg z-[5] bg-black p-10 shadow-[0_20px_80px_20px_rgba(0,0,0)] rounded-xl">
+    <section className="text-white flex justify-center mt-[100px] p-10">
+      <form class="w-full max-w-lg z-[5] bg-[#42666E] p-10 shadow-[0_20px_80px_20px_rgba(0,0,0)] rounded-xl border-[#cbf83e] border-solid border-2" onSubmit={handleSubmit(onSubmit)}>
+      <h1 className="p-4 text-center text-[28px] font-racing mb-6 text-[#cbf83e]">I would love to hear from you!</h1>
         <div class="flex flex-wrap -mx-3 mb-6">
+        
           <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            
             <label
-              class="block uppercase tracking-wide text-[#ff7d00] text-xs font-bold mb-2"
+              class="block uppercase tracking-wide text-[#d8dfee] text-xs font-bold mb-2"
               for="grid-first-name"
             >
               First Name
             </label>
             <input
+            required
               class="appearance-none block w-full bg-gray-200 text-gray-700 border-2 border-cyan-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
               id="grid-first-name"
               type="text"
@@ -25,7 +38,7 @@ const Contact = () => {
           </div>
           <div class="w-full md:w-1/2 px-3">
             <label
-              class="block uppercase tracking-wide text-[#ff7d00] text-xs font-bold mb-2"
+              class="block uppercase tracking-wide text-[#d8dfee] text-xs font-bold mb-2"
               for="grid-last-name"
             >
               Last Name
@@ -42,7 +55,7 @@ const Contact = () => {
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
             <label
-              class="block uppercase tracking-wide text-[#ff7d00] text-xs font-bold mb-2"
+              class="block uppercase tracking-wide text-[#d8dfee] text-xs font-bold mb-2"
               for="grid-password"
             >
               E-mail
@@ -50,19 +63,22 @@ const Contact = () => {
             <input
               class="appearance-none block w-full bg-gray-200 text-gray-700 border-2 border-cyan-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="email"
-              type="email"
+              type="text"
+              {...register("email", { required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i })}
             />
+            {errors.email && <span className="text-[#cbf83e]">Invalid email!</span>}
           </div>
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
             <label
-              class="block uppercase tracking-wide text-[#ff7d00] text-xs font-bold mb-2"
+              class="block uppercase tracking-wide text-[#d8dfee] text-xs font-bold mb-2"
               for="grid-password"
             >
               Message
             </label>
             <textarea
+            required
               class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border-2 border-cyan-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
               id="message"
             ></textarea>
@@ -71,8 +87,8 @@ const Contact = () => {
         <div class="">
           <div class=" flex justify-center">
             <button
-              class="shadow bg-cyan-400 hover:bg-cyan-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-              type="button"
+              class="shadow bg-[#cbf83e] hover:bg-cyan-400 focus:shadow-outline focus:outline-none text-[#42666E] font-bold py-2 px-4 rounded"
+              type="submit"
             >
               Send
             </button>
