@@ -12,7 +12,7 @@ const Contact = () => {
 
   
   return (
-    <section className="text-white flex justify-center mt-[100px] p-10">
+    <section className="text-white flex justify-center my-[100px] p-10">
       <form class="w-full max-w-lg z-[5] bg-[#42666E] p-10 shadow-[0_20px_80px_20px_rgba(0,0,0)] rounded-xl border-[#cbf83e] border-solid border-2" onSubmit={handleSubmit(onSubmit)}>
       <h1 className="p-4 text-center text-[28px] font-racing mb-6 text-[#cbf83e]">I would love to hear from you!</h1>
         <div class="flex flex-wrap -mx-3 mb-6">

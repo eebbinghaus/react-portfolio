@@ -13,6 +13,9 @@ import name from "./name.png";
 import erich from "./erich.png";
 import logoGreen from "./logoGreen.png";
 import picAbout from "./picAbout.png";
+import famPic from "./famPic.png";
+import meLogo from "./meLogo.png";
+
 export {
     logo,
     close,
@@ -29,4 +32,6 @@ export {
     erich,
     logoGreen,
     picAbout,
+    famPic,
+    meLogo,
 };

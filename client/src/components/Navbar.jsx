@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-fill  mx-10 mb-12 flex p-1 justify-between items-center navbar z-[5] ">
+    <nav className="w-fill  mx-10 mb-12 flex p-1 justify-between items-center navbar z-[10] ">
        <Link
             className={`font-racing  cursor-pointer text-[20px] text-black mr-10`}
             aria-current="page"
@@ -69,7 +69,7 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } p-6  absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } p-2  absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar z-[10}`}
         >
           <ul className="list-none flex flex-col justify-end items-center flex-1">
             <li>
