@@ -11,10 +11,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
     return (
-        <div
-            className=" w-full md:h-screen overflow-hidden bg-no-repeat bg-cover bg-grey"
-            
-        >
+        <div className=" w-full md:h-screen overflow-hidden bg-no-repeat bg-cover bg-[url('./assets/bgGrey.png')]">
             <Router>
                 <div className="">
                     <div>

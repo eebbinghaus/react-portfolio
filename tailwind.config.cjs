@@ -16,9 +16,9 @@ module.exports = {
         skranji: ["Skranji", "cursive"],
         racing: ["Racing Sans One", "cursive"]
       },
-      backgroundImage: {
-        grey: "url('./src/assets/bgGrey.png')"
-      },
+      // backgroundImage: {
+      //   grey: "url('./src/assets/bgGrey.png')"
+      // },
     },
     screens: {
       xs: "480px",
