@@ -12,10 +12,10 @@ This portfolio consists of four different sections. The about me section, my pro
 
 ## Screenshot
 
-![screenshot](./client/src/assets/portfolio.png)
+![screenshot](./src/assets/portfolio.png)
 
 ---
 
 ## Link to Deployed Application
 
-<https://eebbinghaus.github.io/personal-portfolio/>
+<https://eebbinghaus.github.io/react-portfolio>
