@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { logoGreen, menu, close } from "../assets";
+import { logoGreen, menu, close, logoGif } from "../assets";
 
 import { Link } from "react-router-dom";
 

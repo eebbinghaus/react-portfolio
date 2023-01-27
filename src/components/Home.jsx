@@ -2,8 +2,8 @@ import { meLogo } from "../assets";
 
 const Home = () => {
     return (
-        <div className="flex justify-center  ">
-            <div className="flex justify-center sm:w-3/4 rounded-xl shadow-[0_20px_80px_20px_black] flex-wrap mt-[70px]">
+        <div className="flex justify-center">
+            <div className="flex justify-center sm:w-3/4 rounded-xl shadow-[0_20px_80px_20px_black] flex-wrap mt-[70px] xs:mx-10 xs:mb-4">
                 <div className=" p-10 lg:pl-[120px] ">
                     <h1 className="text-[#cbf83e]  text-[60px] lg:text-[120px] font-racing font-bold  pt-10 ">
                         Erich
@@ -18,7 +18,7 @@ const Home = () => {
                         "Chasing the things that I'm passionate about!"
                     </p>
                 </div>
-                <div className="z-[5] max-w-[35%] mt-[10x]">
+                <div className="z-[5] lg:max-w-[35%] mt-[10x]">
                     <img src={meLogo} className="" />
                 </div>
             </div>

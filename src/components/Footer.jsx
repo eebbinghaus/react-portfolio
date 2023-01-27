@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
     return (
-        <div className="flex row justify-around fixed inset-x-0 bottom-0 z-[8] ">
+        <div className="flex row justify-around fixed inset-x-0 bottom-0 z-[8] pt-4">
             <div className="text-[#cbf83e] drop-shadow-[2px_2px_.5px_#42666E] hover:text-cyan-300">
                 <a href="https://www.github.com/eebbinghaus" target="_blank">
                     <FontAwesomeIcon

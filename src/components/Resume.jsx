@@ -2,8 +2,8 @@ const Resume = () => {
     return (
         <div className="">
             <div className="flex justify-center my-[150px] text-center">
-                <section className="w-3/5 lg:flex justify-around bg-[#42666E] rounded-xl shadow-[0_20px_80px_20px_rgba(0,0,0)] border-[#cbf83e] border-solid border-2   ">
-                    <div className="px-10 ">
+                <section className="w-3/5 lg:flex justify-around bg-[#42666E] rounded-xl shadow-[0_20px_80px_20px_rgba(0,0,0)] border-[#cbf83e] border-solid border-2">
+                    <div className="px-10">
                         <h1 className="text-[#cbf83e] text-[40px] font-racing pt-4">
                             Coding Skills
                         </h1>
@@ -71,7 +71,7 @@ const Resume = () => {
                             <li className="pb-2 text-[18px]">
                                 -Created 15 other small projects covering a
                                 number of different languages and
-                                libraries.Completing these projects helped to
+                                libraries. Completing these projects helped to
                                 create a solid understanding of front-end design
                                 as well as back-end development.{" "}
                             </li>
