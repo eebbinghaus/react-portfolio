@@ -24,7 +24,7 @@ const Navbar = () => {
             <ul className="list-none md:flex hidden justify-end items-center flex-1 z-[5] font-racing">
                 <li>
                     <Link
-                        className={` cursor-pointer text-[30px] mr-10 text-[#42666E]  hover:drop-shadow-[2px_2px_.5px_#42666E] hover:text-[#d8dfee] focus:text-[#d8dfee] focus:drop-shadow-[2px_2px_.5px_#42666E]`}
+                        className={` cursor-pointer text-[30px] mr-10 text-[#42666E] hover:text-cyan-500 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                         aria-current="page"
                         to="/about"
                     >
@@ -33,7 +33,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link
-                        className={` cursor-pointer text-[30px] mr-10 text-[#42666E]  hover:drop-shadow-[2px_2px_.5px_#42666E] hover:text-[#d8dfee] focus:text-[#d8dfee] focus:drop-shadow-[2px_2px_.5px_#42666E]`}
+                        className={` cursor-pointer text-[30px] mr-10 text-[#42666E] hover:text-cyan-500 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                         aria-current="page"
                         to="/portfolio"
                     >
@@ -42,7 +42,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link
-                        className={` cursor-pointer text-[30px] mr-10 text-[#42666E]  hover:drop-shadow-[2px_2px_.5px_#42666E] hover:text-[#d8dfee] focus:text-[#d8dfee] focus:drop-shadow-[2px_2px_.5px_#42666E]`}
+                        className={` cursor-pointer text-[30px] mr-10 text-[#42666E] hover:text-cyan-500 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                         aria-current="page"
                         to="/contact"
                     >
@@ -51,7 +51,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link
-                        className={` cursor-pointer text-[30px] text-[#42666E]  hover:drop-shadow-[2px_2px_.5px_#42666E] hover:text-[#d8dfee] focus:text-[#d8dfee] focus:drop-shadow-[2px_2px_.5px_#42666E]`}
+                        className={` cursor-pointer text-[30px] text-[#42666E] hover:text-cyan-500 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                         aria-current="page"
                         to="/resume"
                     >
@@ -76,7 +76,7 @@ const Navbar = () => {
                     <ul className="list-none flex flex-col justify-end items-center flex-1">
                         <li>
                             <Link
-                                className={`font-racing cursor-pointer text-[20px] text-cyan-300 mr-10`}
+                                className={`font-racing cursor-pointer text-[20px] text-cyan-500 mr-10 hover:text-cyan-300 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                                 aria-current="page"
                                 to="/about"
                             >
@@ -85,7 +85,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link
-                                className={`font-racing cursor-pointer text-[20px] text-cyan-300 mr-10`}
+                                className={`font-racing cursor-pointer text-[20px] text-cyan-500 mr-10 hover:text-cyan-300 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                                 aria-current="page"
                                 to="/portfolio"
                             >
@@ -94,7 +94,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link
-                                className={`font-racing cursor-pointer text-[20px] text-cyan-300 mr-10`}
+                                className={`font-racing cursor-pointer text-[20px] text-cyan-500 mr-10 hover:text-cyan-300 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                                 aria-current="page"
                                 to="/contact"
                             >
@@ -103,7 +103,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link
-                                className={`font-racing cursor-pointer text-[20px] text-cyan-300 mr-10`}
+                                className={`font-racing cursor-pointer text-[20px] text-cyan-500 mr-10 hover:text-cyan-300 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                                 aria-current="page"
                                 to="/resume"
                             >
