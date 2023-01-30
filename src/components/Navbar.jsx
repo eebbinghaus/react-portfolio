@@ -26,7 +26,7 @@ const Navbar = () => {
                     <Link
                         className={` cursor-pointer text-[30px] mr-10 text-[#42666E] hover:text-cyan-500 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                         aria-current="page"
-                        to="/about"
+                        to="react-portfolio/about"
                     >
                         About Me
                     </Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
                     <Link
                         className={` cursor-pointer text-[30px] mr-10 text-[#42666E] hover:text-cyan-500 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                         aria-current="page"
-                        to="/portfolio"
+                        to="react-portfolio/portfolio"
                     >
                         Portfolio
                     </Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
                     <Link
                         className={` cursor-pointer text-[30px] mr-10 text-[#42666E] hover:text-cyan-500 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                         aria-current="page"
-                        to="/contact"
+                        to="react-portfolio/contact"
                     >
                         Contact
                     </Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
                     <Link
                         className={` cursor-pointer text-[30px] text-[#42666E] hover:text-cyan-500 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                         aria-current="page"
-                        to="/resume"
+                        to="react-portfolio/resume"
                     >
                         Resume
                     </Link>

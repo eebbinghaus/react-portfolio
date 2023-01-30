@@ -22,18 +22,26 @@ function App() {
                                 path="/react-portfolio"
                                 element={<Home />}
                             />
-                            <Route exact path="/about" element={<About />} />
                             <Route
                                 exact
-                                path="/portfolio"
+                                path="react-portfolio/about"
+                                element={<About />}
+                            />
+                            <Route
+                                exact
+                                path="react-portfolio/portfolio"
                                 element={<Portfolio />}
                             />
                             <Route
                                 exact
-                                path="/contact"
+                                path="react-portfolio/contact"
                                 element={<Contact />}
                             />
-                            <Route exact path="/resume" element={<Resume />} />
+                            <Route
+                                exact
+                                path="react-portfolio/resume"
+                                element={<Resume />}
+                            />
                         </Routes>
                         <Footer />
                     </div>
