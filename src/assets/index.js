@@ -13,6 +13,7 @@ import famPic from "./famPic.png";
 import meLogo from "./meLogo.png";
 import bgGrey from "./bgGrey.png"
 import logoGif from "./logoGif.gif"
+import malie from "./malie-screenshot.png"
 
 export {
     close,
@@ -29,5 +30,6 @@ export {
     famPic,
     meLogo,
     bgGrey,
-    logoGif
+    logoGif,
+    malie
 };

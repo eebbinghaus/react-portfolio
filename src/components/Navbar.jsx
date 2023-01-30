@@ -71,7 +71,7 @@ const Navbar = () => {
                 <div
                     className={`${
                         toggle ? "flex" : "hidden"
-                    } p-2  absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar z-[10}`}
+                    } p-2  absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar z-[10]`}
                 >
                     <ul className="list-none flex flex-col justify-end items-center flex-1">
                         <li>
@@ -101,7 +101,7 @@ const Navbar = () => {
                                 Contact
                             </Link>
                         </li>
-                        <li>
+                        <li className="pb-10">
                             <Link
                                 className={`font-racing cursor-pointer text-[20px] text-cyan-500 mr-10 hover:text-cyan-300 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                                 aria-current="page"

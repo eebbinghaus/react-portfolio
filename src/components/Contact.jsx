@@ -39,7 +39,7 @@ const Contact = () => {
 
     return (
         <AnimatedPage>
-            <section className="text-white flex justify-center my-[100px] p-10">
+            <section className="text-white flex justify-center my-[20px] p-8 ">
                 <form
                     ref={form}
                     onSubmit={sendEmail}
@@ -90,7 +90,7 @@ const Contact = () => {
                                     </button>
                                 </div>
                             </div>
-                            <div className="p-4 text-center text-[28px] font-racing text-white">
+                            <div className="p-4  text-center text-[28px] font-racing text-white">
                                 {result ? <Result /> : null}
                             </div>
                         </div>

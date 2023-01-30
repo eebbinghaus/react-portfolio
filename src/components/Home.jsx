@@ -4,13 +4,13 @@ import AnimatedPage from "./AnimatedPage";
 const Home = () => {
     return (
         <AnimatedPage>
-            <div className="flex justify-center">
+            <div className="flex justify-center mb-24">
                 <div className="flex justify-center sm:w-3/4 rounded-xl shadow-[0_20px_80px_20px_black] flex-wrap mt-[70px] xs:mx-10 xs:mb-4">
-                    <div className=" p-10 lg:pl-[120px] ">
-                        <h1 className="text-[#cbf83e]  text-[60px] lg:text-[120px] font-racing font-bold  pt-10 ">
+                    <div className=" p-10 lg:pl-[70px]  ">
+                        <h1 className="text-[#cbf83e]  text-[60px] lg:text-[100px] font-racing font-bold  pt-10 ">
                             Erich
                         </h1>
-                        <h1 className="text-[#cbf83e] text-[60px] lg:text-[120px] font-racing font-bold  ">
+                        <h1 className="text-[#cbf83e] text-[60px] lg:text-[100px] font-racing font-bold  ">
                             Ebbinghaus
                         </h1>
                         <p className=" text-cyan-300 lg:text-[#d8dfee] text-[30px] lg:text-[60px]  font-racing lg:ml-[100px]">

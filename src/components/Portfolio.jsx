@@ -5,6 +5,7 @@ import {
     wishlist,
     quiz,
     teamProfile,
+    malie,
 } from "../assets";
 import AnimatedPage from "./AnimatedPage";
 
@@ -12,18 +13,18 @@ const Portfolio = () => {
     return (
         <AnimatedPage>
             <div className=" ">
-                <div className="mb-[50px] flex p-1 justify-around items-center flex-wrap mt-[150px] ">
-                    <div className=" text-center m-10 z-[5] bg-[#42666E] p-4 shadow-[0_20px_80px_20px_rgba(0,0,0)] rounded-xl border-[#cbf83e] border-solid border-2">
+                <div className="mb-[50px] flex p-1 justify-around items-center flex-wrap mt-[70px] ">
+                    <div className=" text-center m-10  bg-[#42666E] p-4 shadow-[0_20px_80px_20px_rgba(0,0,0)] rounded-xl border-[#cbf83e] border-solid border-2">
                         <h1 className="text-[#cbf83e] text-[24px] mb-3 font-racing font-bold  ">
-                            Weather Dashboard
+                            The Malie Hotel
                         </h1>
                         <img
-                            src={weather}
-                            alt="meal planner"
+                            src={malie}
+                            alt="hotel rooms"
                             className="w-[400px] h-[175px] border-4 border-white mb-6"
                         />
                         <a
-                            href="https://eebbinghaus.github.io/weather-dashboard/"
+                            href="https://the-malie.herokuapp.com/"
                             target="_blank"
                             className="text-cyan-300 font-skranji hover:text-[#cbf83e]"
                         >
@@ -31,7 +32,7 @@ const Portfolio = () => {
                         </a>
                         <br />
                         <a
-                            href="https://github.com/eebbinghaus/weather-dashboard"
+                            href="https://github.com/BluSkreen/malie-hotel"
                             target="_blank"
                             className="text-cyan-300 font-skranji hover:text-[#cbf83e]"
                         >
@@ -122,12 +123,12 @@ const Portfolio = () => {
                             JavaScript Quiz
                         </h1>
                         <img
-                            src={quiz}
+                            src={weather}
                             alt="meal planner"
                             className="w-[400px] h-[175px] border-4 border-white mb-6"
                         />
                         <a
-                            href="https://eebbinghaus.github.io/javaScript-quiz/"
+                            href="https://eebbinghaus.github.io/weather-dashboard/"
                             target="_blank"
                             className="text-cyan-300 font-skranji hover:text-[#cbf83e]"
                         >
@@ -135,7 +136,7 @@ const Portfolio = () => {
                         </a>
                         <br />
                         <a
-                            href="https://github.com/eebbinghaus/javaScript-quiz"
+                            href="https://github.com/eebbinghaus/weather-dashboard"
                             target="_blank"
                             className="text-cyan-300 font-skranji hover:text-[#cbf83e]"
                         >
