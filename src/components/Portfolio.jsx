@@ -23,6 +23,7 @@ const Portfolio = () => {
                             alt="hotel rooms"
                             className="w-[400px] h-[175px] border-4 border-white mb-6"
                         />
+                        <p className="w-[380px] ml-2 text-[#cbf83e] font-skranji pb-4">A modern looking website for booking a room at The Malie Hotel using MERN, Stripe, and JWT authentication.</p>
                         <a
                             href="https://the-malie.herokuapp.com/"
                             target="_blank"
@@ -49,6 +50,7 @@ const Portfolio = () => {
                             alt="meal planner"
                             className="w-[400px] h-[175px] border-4 border-white mb-6"
                         />
+                        <p className="w-[380px] ml-2 text-[#cbf83e] font-skranji pb-4">prepUrself is a meal planning application that allows users to search recipes, and assign them to days of the week for an easy way to meal prep!</p>
                         <a
                             href="https://bencha27.github.io/prepUrself/"
                             target="_blank"
@@ -75,6 +77,7 @@ const Portfolio = () => {
                             alt="meal planner"
                             className="w-[400px] h-[175px] border-4 border-white mb-6"
                         />
+                        <p className="w-[380px] ml-2 text-[#cbf83e] font-skranji pb-4">This command-line application will allow you to view departments, roles and employees in a formatted table.</p>
                         <a
                             href="https://drive.google.com/file/d/1WCBJHjrinwSsWccUmaNCT0SRhjCIvG-v/view"
                             target="_blank"
@@ -101,6 +104,7 @@ const Portfolio = () => {
                             alt="meal planner"
                             className="w-[400px] h-[175px] border-4 border-white mb-6 "
                         />
+                        <p className="w-[380px] ml-2 text-[#cbf83e] font-skranji pb-4">A fun App that allows you to save all of the things that you want for the Holidays as well as view your friends and family lists all in one place.  </p>
                         <a
                             href="https://mighty-escarpment-72007.herokuapp.com/"
                             target="_blank"
@@ -127,6 +131,7 @@ const Portfolio = () => {
                             alt="meal planner"
                             className="w-[400px] h-[175px] border-4 border-white mb-6"
                         />
+                        <p className="w-[380px] ml-2 text-[#cbf83e] font-skranji pb-4">This app was created using JavaScript and utilizes the Open Weather API to provide real time weather info for any city in the world!</p>
                         <a
                             href="https://eebbinghaus.github.io/weather-dashboard/"
                             target="_blank"
@@ -153,6 +158,7 @@ const Portfolio = () => {
                             alt="meal planner"
                             className="w-[400px] h-[175px] border-4 border-white mb-6"
                         />
+                        <p className="w-[380px] ml-2 text-[#cbf83e] font-skranji pb-4">Use this Team Profile Generator to quickly generate a webpage that will display your team's basic information. </p>
                         <a
                             href="https://drive.google.com/file/d/1hkZUB1H2bZcbjzyiJH7jd5YFykh6uPih/view"
                             target="_blank"

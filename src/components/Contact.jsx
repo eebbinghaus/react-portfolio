@@ -39,7 +39,7 @@ const Contact = () => {
 
     return (
         <AnimatedPage>
-            <section className="text-white flex justify-center my-[20px] p-8 ">
+            <section className="text-white flex justify-center my-[120px] p-8 ">
                 <form
                     ref={form}
                     onSubmit={sendEmail}

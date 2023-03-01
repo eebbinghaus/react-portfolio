@@ -4,7 +4,7 @@ const Resume = () => {
     return (
         <AnimatedPage>
             <div className="mb-36">
-                <div className="flex justify-center my-[50px] text-center">
+                <div className="flex justify-center my-[120px] text-center">
                     <section className="w-3/5 lg:flex justify-around bg-[#42666E] rounded-xl shadow-[0_20px_80px_20px_rgba(0,0,0)] border-[#cbf83e] border-solid border-2">
                         <div className="px-10">
                             <h1 className="text-[#cbf83e] text-[40px] font-racing pt-4">

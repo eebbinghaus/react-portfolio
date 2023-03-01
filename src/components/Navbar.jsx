@@ -78,7 +78,7 @@ const Navbar = () => {
                             <Link
                                 className={`font-racing cursor-pointer text-[20px] text-cyan-500 mr-10 hover:text-cyan-300 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                                 aria-current="page"
-                                to="/about"
+                                to="react-portfolio/about"
                             >
                                 About Me
                             </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
                             <Link
                                 className={`font-racing cursor-pointer text-[20px] text-cyan-500 mr-10 hover:text-cyan-300 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                                 aria-current="page"
-                                to="/portfolio"
+                                to="react-portfolio/portfolio"
                             >
                                 Portfolio
                             </Link>
@@ -96,7 +96,7 @@ const Navbar = () => {
                             <Link
                                 className={`font-racing cursor-pointer text-[20px] text-cyan-500 mr-10 hover:text-cyan-300 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                                 aria-current="page"
-                                to="/contact"
+                                to="react-portfolio/contact"
                             >
                                 Contact
                             </Link>
@@ -105,7 +105,7 @@ const Navbar = () => {
                             <Link
                                 className={`font-racing cursor-pointer text-[20px] text-cyan-500 mr-10 hover:text-cyan-300 focus:text-cyan-500 hover:transition ease-in-out delay-150 duration-300`}
                                 aria-current="page"
-                                to="/resume"
+                                to="react-portfolio/resume"
                             >
                                 Resume
                             </Link>
