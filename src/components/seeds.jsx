@@ -13,7 +13,7 @@ export const projectInfo = [
         image: malie,
         description:
             "A modern looking website for booking a room at The Malie Hotel using MERN, Stripe, and JWT authentication.",
-        linkToApp: "https://https://the-malie.herokuapp.com/",
+        linkToApp: "https://the-malie.herokuapp.com/",
         linkToGit: "https://github.com/BluSkreen/malie-hotel",
     },
     {
